@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ERROR_AUTO_LOGIN_FAILED">需要重新输入密码，才能登陆账号</string>
+    <string name="ERROR_CONFIRM">确认</string>
+    <string name="ERROR_INFO">[%s]发生异常,请重启游戏！</string>
+    <string name="ERROR_INTERNAL">内部错误</string>
+    <string name="ERROR_NETWORD_FAILED">服务器连接失败</string>
+    <string name="ERROR_PAY_AGAIN">你有一笔订单正在处理中，请稍后查看，如果仍未到帐请重新登录游戏。</string>
+    <string name="ERROR_PAY_FAILED">%s</string>
+    <string name="ERROR_PAY_RETRY">有未处理的订单，请再试一次</string>
+    <string name="ERROR_QUIT_INFO">发生异常，请重新开启游戏，点击确认退出游戏</string>
+    <string name="ERROR_SIGNAUTH_FAILED">协议验证错误</string>
+    <string name="ERROR_THIRD_INFO">您的设备不支持Google Play充值</string>
+    <string name="FORGET_PASSWORD_HOST">csapp.playcomet.com/password.php</string>
+    <string name="GUEST_BIND_ACCOUNT">绑定账号</string>
+    <string name="GUEST_FIRST_LOGON_CANEL">取消</string>
+    <string name="GUEST_FIRST_LOGON_INFO">提示</string>
+    <string name="GUEST_FIRST_LOGON_LOGIN">游客登录</string>
+    <string name="GUEST_FIRST_LOGON_TEXT">为保证你的游戏数据安全,请尽快绑定一个账号,以免因为刷机等原因导致游戏数据丢失!</string>
+    <string name="GUEST_LOGIN_TEXT">游客登录</string>
+    <string name="GUEST_QUICK_LOGON">快速游戏</string>
+    <string name="HOST">p-cn.playcomet.com</string>
+    <string name="LOGIN_THIRD_VIEW_OTHER_TYPE_ACCOUNT">通行证登录</string>
+    <string name="LOGIN_THIRD_VIEW_OTHER_TYPE_ALERT">其他登录方式</string>
+    <string name="LOGIN_THIRD_VIEW_PHONE_NUMBER_LOGIN">手机号码登录</string>
+    <string name="MESSAGE_UPDATE_CANCEL">取消</string>
+    <string name="MESSAGE_UPDATE_CONFIRM">确认</string>
+    <string name="MESSAGE_UPDATE_VERSION">版本更新</string>
+    <string name="MSG_AD_EXCHANGE">兑换成功</string>
+    <string name="MSG_AUTHING">正在验证帐号，请稍等...</string>
+    <string name="MSG_BYE">帐号退出成功</string>
+    <string name="MSG_CANCEL">取消</string>
+    <string name="MSG_FACEBOOK_LOGIN">登录成功</string>
+    <string name="MSG_GOOGLEPLAY_NOT_LOGIN">该设备不支持googleplay登录</string>
+    <string name="MSG_INPUT_CONFIRM">两次输入的密码不一致</string>
+    <string name="MSG_INPUT_PASSWORD">请输入密码</string>
+    <string name="MSG_INPUT_USERNAME">请输入用户名</string>
+    <string name="MSG_INVITE_CHEST_INFO">太棒啦！你发送了全部邀请！获得200荣誉！</string>
+    <string name="MSG_INVITE_MESSAGE">每天必做三件事：吃饭、睡觉、打怪兽！还在等什么？快推荐给朋友吧！全球同服放置类手游，连睡觉时都在打怪升级爆神装！</string>
+    <string name="MSG_INVITE_OVER_INFO">今天的奖励已经领取，明天再来哦！邀请的前50名好友在7天内进入游戏，可获得50钻石/人.</string>
+    <string name="MSG_INVITE_TITLE">天天打怪兽</string>
+    <string name="MSG_LOADING">正在请求服务器，请稍等...</string>
+    <string name="MSG_LOAD_FACEBOOK">正在启动Facebook...</string>
+    <string name="MSG_NOT_GUEST">您不是游客,无需绑定</string>
+    <string name="MSG_PAY_GOOGLE">Google Play</string>
+    <string name="MSG_PAY_OPTIONS">请选择充值方式</string>
+    <string name="MSG_PAY_SUCCESS">充值成功，到帐可能会有数分钟延迟</string>
+    <string name="MSG_PAY_THIRD">更多优惠</string>
+    <string name="MSG_PROMO_EXCHANGE">正在兑换礼品卡，请稍后。</string>
+    <string name="MSG_QUIT_ALERT_INFO">确认退出游戏吗？</string>
+    <string name="MSG_REPLY_CANCEL">取消</string>
+    <string name="MSG_REPLY_COMFIRM">查看</string>
+    <string name="MSG_SHARED_ERROR">分享失败</string>
+    <string name="MSG_SHARE_CANCEL">取消</string>
+    <string name="MSG_SHARE_COMFIRM">分享</string>
+    <string name="MSG_SHARE_SUCCESS">分享成功</string>
+    <string name="MSG_WELCOME">欢迎您, %s</string>
+    <string name="MUST_INSTALL_FB">您需要先安装Facebook</string>
+    <string name="PAY_HOST">i.txwy.tw</string>
+    <string name="SERVICE_CENTER_HOST">csapp.playcomet.com</string>
+    <string name="TERMS1"/>
+    <string name="TERMS2"/>
+    <string name="TERMS_AGREE">确认</string>
+    <string name="TERMS_CHECK">同意条款</string>
+    <string name="TERMS_TITLE1"/>
+    <string name="TERMS_TITLE2"/>
+    <string name="TERMS_TOP_TITLE">使用条款</string>
+    <string name="THIRD_PAY_HOST">pay.txwy.tw</string>
+    <string name="TXWY_PLEASE_CHECK_TERMS">请勾选条款</string>
+    <string name="TXWY_REVIEW_DIALOG_MESSAGE">如果您喜欢我们的游戏，请在Google Play中进行评分或留下评价！</string>
+    <string name="TXWY_REVIEW_DIALOG_REFUSE">不再提示</string>
+    <string name="TXWY_REVIEW_DIALOG_REVIEW">前往评分</string>
+    <string name="TXWY_REVIEW_DIALOG_TITLE">邀请评价</string>
+    <string name="TXWY_REVIEW_DIALOG_WAIT">残忍拒绝</string>
+    <string name="TXWY_XD_AGREE">我已看过并同意</string>
+    <string name="TXWY_XD_FORGET_PASSWORD">手机找回帐号</string>
+    <string name="TXWY_XD_INPUT_CONFIRM_PASSWORD">确认密码</string>
+    <string name="TXWY_XD_INPUT_PASSWORD">输入密码</string>
+    <string name="TXWY_XD_INPUT_USERNAME">输入账号</string>
+    <string name="TXWY_XD_LOGIN">登录</string>
+    <string name="TXWY_XD_LOGIN_FAILED">登陆失败</string>
+    <string name="TXWY_XD_REGISTER">注册</string>
+    <string name="TXWY_XD_REGISTER_FAILED">注册失败</string>
+    <string name="TXWY_XD_TERMS">心动用户隐私权声明</string>
+    <string name="TXWY_XD_THIRD_LOGIN">使用其他账号登录</string>
+    <string name="TXWY_XD_USER_CENTER">用户中心</string>
+    <string name="USER_CENTER_HOST">csapp.playcomet.com/center.php</string>
+    <string name="USER_NOT_LOGIN">尚未登录</string>
+    <string name="XD_SDK_MSG_CODE_FAILS">验证码错误</string>
+    <string name="XD_SDK_MSG_INPUT_CODE">请输入验证码</string>
+    <string name="XD_SDK_MSG_INVALID_PARAMS">参数不够</string>
+    <string name="XD_SDK_MSG_INVALID_USERNAME">用户名无效</string>
+    <string name="XD_SDK_MSG_PASSWORD_FAILS">密码错误</string>
+    <string name="XD_SDK_MSG_PASSWORD_NOT_MATCH">密码不一致</string>
+    <string name="XD_SDK_MSG_PICTURE_CODE_FAILS">图片验证码错误</string>
+    <string name="XD_SDK_MSG_REGISTER_FAILS">2—20个中英文数字</string>
+    <string name="XD_SDK_MSG_USERNAME_EXISTED">用户名已存在，请更换</string>
+    <string name="XD_SDK_MSG_USERNAME_FAILS">用户名不合法</string>
+    <string name="XD_SDK_MSG_USERNAME_FAILS_APPEAL">账号申诉，请通过邮件重制！</string>
+    <string name="XD_SDK_MSG_USERNAME_FAILS_FREEZE">账号冻结，请联系客服！</string>
+    <string name="XD_SDK_MSG_USERNAME_FAILS_LOCK">账号锁定中，请通过邮件重制！</string>
+    <string name="XD_SDK_MSG_USERNAME_NOT_FOUND">用户名不存在</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"关闭"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"开启"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"使用<ns1:g id="APPLICATION_NAME">%s</ns1:g>分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">请访问&lt;b>facebook.com/device&lt;/b>并输入以上验证码。</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">下载图片时出现意外错误。</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView 登录需要访问网络</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest 错误</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">赞了</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">赞</string>
+    <string gender="unknown" name="com_facebook_loading">正在加载...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">取消</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">登录</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">前往 Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">使用 Facebook 登录</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">退出</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">退出</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">登录身份：%1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">已通过 Facebook 登录</string>
+    <string gender="unknown" name="com_facebook_send_button_text">发送</string>
+    <string gender="unknown" name="com_facebook_share_button_text">分享</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">要关联帐户，请在移动设备上打开 Facebook 应用并查看通知。</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- 或 -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">不是你？</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">以%1$s的身份继续</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">确认登录</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">应用分享内容由你掌控。</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"启用"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"您必须先启用 Google Play 服务，然后才能运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"启用 Google Play 服务"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"安装"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"您的设备没有安装 Google Play 服务，因此无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"获取 Google Play 服务"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play 服务的适用范围"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play服务出错"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>无法访问 Google Play 服务，请重试。"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"您的设备不支持 Google Play 服务，因此无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"您必须先更新 Google Play 服务，然后才能运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"更新 Google Play 服务"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Google Play 服务当前正在更新，因此您无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"必须使用新版 Google Play 服务。该服务很快就会自行更新。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"在手机上打开"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"登录"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"使用 Google 帐号登录"</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"其他"</string>
+    <string name="password">密码</string>
+    <string name="pay_list_header_get">商品</string>
+    <string name="pay_list_header_pay">金额</string>
+    <string name="permgrouplab_alert">需要您授权以下权限：</string>
+    <string name="permgrouplab_alert_title">授权提示</string>
+    <string name="permgrouplab_calendar">日历</string>
+    <string name="permgrouplab_camera">相机</string>
+    <string name="permgrouplab_contacts">通讯录</string>
+    <string name="permgrouplab_diss_alert">缺少权限会导致功能不完整，您可以选择\"请求权限\"进行授权</string>
+    <string name="permgrouplab_first_alert">[权限要求提示]</string>
+    <string name="permgrouplab_first_must_name_alert">需要您允许以下权限：</string>
+    <string name="permgrouplab_first_phone">\n:读取设备必要信息，以便游戏正常运行</string>
+    <string name="permgrouplab_first_storage">\n:在设备SD卡中，保存和读取游戏资源</string>
+    <string name="permgrouplab_friendly_tips">为了功能的完整性，我们需要您对以下权限进行授权，我们不会搜集您的任何信息：</string>
+    <string name="permgrouplab_location">位置信息</string>
+    <string name="permgrouplab_microphone">麦克风</string>
+    <string name="permgrouplab_ok">确定</string>
+    <string name="permgrouplab_phone">电话</string>
+    <string name="permgrouplab_repeat_alert">再次点击功能按钮，重新开启授权页面。</string>
+    <string name="permgrouplab_request">请求权限</string>
+    <string name="permgrouplab_sensors">身体传感器</string>
+    <string name="permgrouplab_setting">设置</string>
+    <string name="permgrouplab_setting_tip">缺少必要权限，部分功能会受限。请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回</string>
+    <string name="permgrouplab_sms">短信</string>
+    <string name="permgrouplab_storage">存储空间</string>
+    <string name="reg_password">密码:6-20个字符</string>
+    <string name="reg_uesrname">帐号:6-20字符,非数字开头</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜索"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="tw__composer_hint">正在发生什么事情？</string>
+    <string name="tw__max_tweet_chars">140</string>
+    <string name="tw__post_tweet">推文</string>
+    <string name="uesrname">帐号</string>
+</resources>

@@ -1,0 +1,772 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.38.1.aar\fae7a4c6d4041a23ff93abf4ecdee30c\AndroidManifest.xml:21:1-31:12
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\55b65185da008be3e05cbc23c2509ff8\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\eeecb8c8544a8edd5fc35cbe45f72f97\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:17:1-54:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:17:1-59:12
+MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\1ae7390b501a7cff7193b7b265174db2\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-share-4.38.1.aar\37fbe2d25ab06c0e6da13b2e11f28c06\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\1c2656a14993f7eed91e439782e57c02\AndroidManifest.xml:21:1-37:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\f1185193af7c1c84bb09ee0042a4cc81\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\57646aa6c47517959fe70c9cfc6f1205\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\9ca08ceaba6237aa5429328c664b7d01\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\e8eaa67dff526a97f74b69ffee08cf70\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\4fd76cf01f67a6d888e59645ca722955\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\7435f764ad4a3348c254c1be317a172c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8f6344cb3fd0f8ff2dc689d199100a90\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\498553d596f625c28d500c1d833fff06\AndroidManifest.xml:17:1-22:12
+MERGED from [:app-debug:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\app-debug.aar\d15bd6ba6f137274bfa5548976ed046d\AndroidManifest.xml:2:1-31:12
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:2:1-256:12
+MERGED from [com.facebook.android:facebook-places:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-places-4.38.1.aar\7fb988c6d708f6f99c12228f481eceb6\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.38.1.aar\f00624281de634ba883d8c5c4cc42ae6\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.38.1.aar\ada5fde423632ca903056fa9aa44f8a0\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-marketing:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.38.1.aar\f9e97a796e4635e9c5ec22f740e6a609\AndroidManifest.xml:21:1-35:12
+MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:21:1-53:12
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\4921c0caaa0db7355f60c4ecfa2e8be4\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\2dc15f422b17d935c3bca2d6ae3b5721\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\f2251efd2ed542200b82d61aef08acd6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\eb93bddb8a4873bb39ad96d8afde92ab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\b0d7c78e233b83c3f19c62513e185dca\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\5c7227feac2b9ab8bb6daf916e6ec203\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\2911e78a5ed8a7bcc4507fdd06429352\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\da399c9c1fe3084d33a7ed6e6a0cd0a0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\edc756af759573fbcd5d47c6025dff6b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\62165ede3adae8c1c37d12631dc84e6c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\2886b3da0b1e8c1c04dbb118d6aadc0e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\5c4825ecf9d1bfe72e55a662dc015a8d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\48a93320dd24dea5c694ffeb7414d6cb\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\f9b5bd7dc7315100186a159f207a2fe2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\aec4831af920250b9fa6a1fb9ee60a4c\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\39526eb8e3901e700881079e10a5f455\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\55ed50fc4b7344bccd571cb5a7072ee5\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\1ee343a92105456fc6e1be01a2ba4014\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\5e5d725a1e9777056436ba5811c21152\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\2f5f7c76cc336d07bb0c828e8225fa58\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:2:70-95
+		INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+		INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:2:96-136
+application
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:3:3-14:17
+MERGED from [com.facebook.android:facebook-android-sdk:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.38.1.aar\fae7a4c6d4041a23ff93abf4ecdee30c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.38.1.aar\fae7a4c6d4041a23ff93abf4ecdee30c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\55b65185da008be3e05cbc23c2509ff8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\55b65185da008be3e05cbc23c2509ff8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\eeecb8c8544a8edd5fc35cbe45f72f97\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\eeecb8c8544a8edd5fc35cbe45f72f97\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:34:5-57:19
+MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\1ae7390b501a7cff7193b7b265174db2\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\1ae7390b501a7cff7193b7b265174db2\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-share-4.38.1.aar\37fbe2d25ab06c0e6da13b2e11f28c06\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-share-4.38.1.aar\37fbe2d25ab06c0e6da13b2e11f28c06\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\1c2656a14993f7eed91e439782e57c02\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\1c2656a14993f7eed91e439782e57c02\AndroidManifest.xml:28:5-35:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\e8eaa67dff526a97f74b69ffee08cf70\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\e8eaa67dff526a97f74b69ffee08cf70\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\4fd76cf01f67a6d888e59645ca722955\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\4fd76cf01f67a6d888e59645ca722955\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\7435f764ad4a3348c254c1be317a172c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\7435f764ad4a3348c254c1be317a172c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8f6344cb3fd0f8ff2dc689d199100a90\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8f6344cb3fd0f8ff2dc689d199100a90\AndroidManifest.xml:22:5-26:19
+MERGED from [:app-debug:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\app-debug.aar\d15bd6ba6f137274bfa5548976ed046d\AndroidManifest.xml:11:5-29:19
+MERGED from [:app-debug:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\app-debug.aar\d15bd6ba6f137274bfa5548976ed046d\AndroidManifest.xml:11:5-29:19
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:19:5-254:19
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:19:5-254:19
+MERGED from [com.facebook.android:facebook-places:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-places-4.38.1.aar\7fb988c6d708f6f99c12228f481eceb6\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-places-4.38.1.aar\7fb988c6d708f6f99c12228f481eceb6\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.38.1.aar\f00624281de634ba883d8c5c4cc42ae6\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.38.1.aar\f00624281de634ba883d8c5c4cc42ae6\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.38.1.aar\ada5fde423632ca903056fa9aa44f8a0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.38.1.aar\ada5fde423632ca903056fa9aa44f8a0\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-marketing:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.38.1.aar\f9e97a796e4635e9c5ec22f740e6a609\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-marketing:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.38.1.aar\f9e97a796e4635e9c5ec22f740e6a609\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:28:5-51:19
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\4921c0caaa0db7355f60c4ecfa2e8be4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\4921c0caaa0db7355f60c4ecfa2e8be4\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\2dc15f422b17d935c3bca2d6ae3b5721\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\2dc15f422b17d935c3bca2d6ae3b5721\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\5c4825ecf9d1bfe72e55a662dc015a8d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\5c4825ecf9d1bfe72e55a662dc015a8d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\48a93320dd24dea5c694ffeb7414d6cb\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\48a93320dd24dea5c694ffeb7414d6cb\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\f9b5bd7dc7315100186a159f207a2fe2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\f9b5bd7dc7315100186a159f207a2fe2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\aec4831af920250b9fa6a1fb9ee60a4c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\aec4831af920250b9fa6a1fb9ee60a4c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\39526eb8e3901e700881079e10a5f455\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\39526eb8e3901e700881079e10a5f455\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\55ed50fc4b7344bccd571cb5a7072ee5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\55ed50fc4b7344bccd571cb5a7072ee5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\1ee343a92105456fc6e1be01a2ba4014\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\1ee343a92105456fc6e1be01a2ba4014\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\5e5d725a1e9777056436ba5811c21152\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\5e5d725a1e9777056436ba5811c21152\AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:3:157-183
+	android:label
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:3:78-110
+	android:roundIcon
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:3:111-156
+	android:icon
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:3:43-77
+	android:allowBackup
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:3:16-42
+	android:banner
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:3:238-275
+	android:theme
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:3:184-215
+	android:isGame
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:3:216-237
+activity#com.txwySDKTest.MainActivity
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:4:5-10:16
+MERGED from [:app-debug:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\app-debug.aar\d15bd6ba6f137274bfa5548976ed046d\AndroidManifest.xml:18:9-28:20
+MERGED from [:app-debug:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\app-debug.aar\d15bd6ba6f137274bfa5548976ed046d\AndroidManifest.xml:18:9-28:20
+	android:name
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:4:15-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:5:7-9:23
+action#android.intent.action.MAIN
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:6:9-61
+	android:name
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:6:17-58
+category#android.intent.category.LAUNCHER
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:7:9-69
+	android:name
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:7:19-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:8:9-78
+	android:name
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:8:19-75
+meta-data#unity.build-id
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:11:5-101
+	android:value
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:11:46-98
+	android:name
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:11:16-45
+meta-data#unity.splash-mode
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:12:5-69
+	android:value
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:12:49-66
+	android:name
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:12:16-48
+meta-data#unity.splash-enable
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:13:5-74
+	android:value
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:13:51-71
+	android:name
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:13:16-50
+uses-feature#0x00020000
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:15:3-52
+	android:glEsVersion
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:15:17-49
+uses-feature#android.hardware.vulkan
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:16:3-83
+	android:required
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:16:56-80
+	android:name
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:16:17-55
+uses-permission#android.permission.INTERNET
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:17:3-65
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:23:5-67
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:11:5-67
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:17:20-62
+uses-feature#android.hardware.touchscreen
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:18:3-88
+	android:required
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:18:61-85
+	android:name
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:18:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:19:3-99
+	android:required
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:19:72-96
+	android:name
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:19:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:20:3-108
+	android:required
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:20:81-105
+	android:name
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml:20:17-80
+uses-sdk
+INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+MERGED from [com.facebook.android:facebook-android-sdk:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.38.1.aar\fae7a4c6d4041a23ff93abf4ecdee30c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.38.1.aar\fae7a4c6d4041a23ff93abf4ecdee30c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\55b65185da008be3e05cbc23c2509ff8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\55b65185da008be3e05cbc23c2509ff8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\eeecb8c8544a8edd5fc35cbe45f72f97\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\eeecb8c8544a8edd5fc35cbe45f72f97\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\1ae7390b501a7cff7193b7b265174db2\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-login-4.38.1.aar\1ae7390b501a7cff7193b7b265174db2\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-share-4.38.1.aar\37fbe2d25ab06c0e6da13b2e11f28c06\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-share-4.38.1.aar\37fbe2d25ab06c0e6da13b2e11f28c06\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\1c2656a14993f7eed91e439782e57c02\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\1c2656a14993f7eed91e439782e57c02\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\f1185193af7c1c84bb09ee0042a4cc81\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\f1185193af7c1c84bb09ee0042a4cc81\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\57646aa6c47517959fe70c9cfc6f1205\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\57646aa6c47517959fe70c9cfc6f1205\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\9ca08ceaba6237aa5429328c664b7d01\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\9ca08ceaba6237aa5429328c664b7d01\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\e8eaa67dff526a97f74b69ffee08cf70\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\e8eaa67dff526a97f74b69ffee08cf70\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\4fd76cf01f67a6d888e59645ca722955\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\4fd76cf01f67a6d888e59645ca722955\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\7435f764ad4a3348c254c1be317a172c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\7435f764ad4a3348c254c1be317a172c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8f6344cb3fd0f8ff2dc689d199100a90\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8f6344cb3fd0f8ff2dc689d199100a90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\498553d596f625c28d500c1d833fff06\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\498553d596f625c28d500c1d833fff06\AndroidManifest.xml:20:5-44
+MERGED from [:app-debug:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\app-debug.aar\d15bd6ba6f137274bfa5548976ed046d\AndroidManifest.xml:7:5-9:41
+MERGED from [:app-debug:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\app-debug.aar\d15bd6ba6f137274bfa5548976ed046d\AndroidManifest.xml:7:5-9:41
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:7:5-9:41
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-places:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-places-4.38.1.aar\7fb988c6d708f6f99c12228f481eceb6\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-places-4.38.1.aar\7fb988c6d708f6f99c12228f481eceb6\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.38.1.aar\f00624281de634ba883d8c5c4cc42ae6\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.38.1.aar\f00624281de634ba883d8c5c4cc42ae6\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.38.1.aar\ada5fde423632ca903056fa9aa44f8a0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.38.1.aar\ada5fde423632ca903056fa9aa44f8a0\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.38.1.aar\f9e97a796e4635e9c5ec22f740e6a609\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.38.1.aar\f9e97a796e4635e9c5ec22f740e6a609\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\4921c0caaa0db7355f60c4ecfa2e8be4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\4921c0caaa0db7355f60c4ecfa2e8be4\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\2dc15f422b17d935c3bca2d6ae3b5721\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-license-11.8.0.aar\2dc15f422b17d935c3bca2d6ae3b5721\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\f2251efd2ed542200b82d61aef08acd6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\f2251efd2ed542200b82d61aef08acd6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\eb93bddb8a4873bb39ad96d8afde92ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\eb93bddb8a4873bb39ad96d8afde92ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\b0d7c78e233b83c3f19c62513e185dca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\b0d7c78e233b83c3f19c62513e185dca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\5c7227feac2b9ab8bb6daf916e6ec203\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\5c7227feac2b9ab8bb6daf916e6ec203\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\2911e78a5ed8a7bcc4507fdd06429352\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\2911e78a5ed8a7bcc4507fdd06429352\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\da399c9c1fe3084d33a7ed6e6a0cd0a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\da399c9c1fe3084d33a7ed6e6a0cd0a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\edc756af759573fbcd5d47c6025dff6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\edc756af759573fbcd5d47c6025dff6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\62165ede3adae8c1c37d12631dc84e6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\62165ede3adae8c1c37d12631dc84e6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\2886b3da0b1e8c1c04dbb118d6aadc0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\2886b3da0b1e8c1c04dbb118d6aadc0e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\5c4825ecf9d1bfe72e55a662dc015a8d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\5c4825ecf9d1bfe72e55a662dc015a8d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\48a93320dd24dea5c694ffeb7414d6cb\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\48a93320dd24dea5c694ffeb7414d6cb\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\f9b5bd7dc7315100186a159f207a2fe2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\f9b5bd7dc7315100186a159f207a2fe2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\aec4831af920250b9fa6a1fb9ee60a4c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\aec4831af920250b9fa6a1fb9ee60a4c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\39526eb8e3901e700881079e10a5f455\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\39526eb8e3901e700881079e10a5f455\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\55ed50fc4b7344bccd571cb5a7072ee5\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\55ed50fc4b7344bccd571cb5a7072ee5\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\1ee343a92105456fc6e1be01a2ba4014\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\1ee343a92105456fc6e1be01a2ba4014\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\5e5d725a1e9777056436ba5811c21152\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\5e5d725a1e9777056436ba5811c21152\AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\2f5f7c76cc336d07bb0c828e8225fa58\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\2f5f7c76cc336d07bb0c828e8225fa58\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+		INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+		ADDED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+		INJECTED from E:\UnityProj\TestTxwySDK\gradle2\TestTxwySDK\src\main\AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:23:9-27:75
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:239:9-241:73
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:239:9-241:73
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:25:13-46
+	android:windowSoftInputMode
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:241:13-70
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\65d748640a0f4bc77ada43c83b197f6a\AndroidManifest.xml:34:13-89
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\eeecb8c8544a8edd5fc35cbe45f72f97\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\eeecb8c8544a8edd5fc35cbe45f72f97\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\eeecb8c8544a8edd5fc35cbe45f72f97\AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\eeecb8c8544a8edd5fc35cbe45f72f97\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\eeecb8c8544a8edd5fc35cbe45f72f97\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\eeecb8c8544a8edd5fc35cbe45f72f97\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-messaging-11.8.0.aar\eeecb8c8544a8edd5fc35cbe45f72f97\AndroidManifest.xml:32:25-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:22:5-79
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:13:5-79
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:24:5-68
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:17:5-68
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:25:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:28:9-32:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:29:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:33:9-41:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:37:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:34:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:38:13-40:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:39:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:34:9-37:40
+MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\1f89006b160d66551871011d80f68929\AndroidManifest.xml:34:9-37:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:44:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:47:9-51:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:50:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\b9ebd8a8445ebb23eff57345f2b380cc\AndroidManifest.xml:48:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:29:9-63
+permission#com.txwySDKTest.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:32:22-76
+uses-permission#com.txwySDKTest.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:35:9-44:20
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:243:9-253:20
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:243:9-253:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:36:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:39:13-43:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.txwySDKTest
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:42:27-58
+category#com.txwySDKTest
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\ccc721c96fc49133eb896dc46d92547b\AndroidManifest.xml:54:25-77
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\1c2656a14993f7eed91e439782e57c02\AndroidManifest.xml:29:9-32:66
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:207:9-210:48
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:207:9-210:48
+	android:label
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:210:13-45
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\1c2656a14993f7eed91e439782e57c02\AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\1c2656a14993f7eed91e439782e57c02\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\1c2656a14993f7eed91e439782e57c02\AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\1c2656a14993f7eed91e439782e57c02\AndroidManifest.xml:33:9-71
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:223:9-234:20
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:223:9-234:20
+	android:exported
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:225:13-36
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\1c2656a14993f7eed91e439782e57c02\AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\1c2656a14993f7eed91e439782e57c02\AndroidManifest.xml:34:9-67
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:211:9-222:20
+MERGED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:211:9-222:20
+	android:exported
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:213:13-36
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-common-4.38.1.aar\1c2656a14993f7eed91e439782e57c02\AndroidManifest.xml:34:19-64
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\e8eaa67dff526a97f74b69ffee08cf70\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\e8eaa67dff526a97f74b69ffee08cf70\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\e8eaa67dff526a97f74b69ffee08cf70\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\e8eaa67dff526a97f74b69ffee08cf70\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\4fd76cf01f67a6d888e59645ca722955\AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\4fd76cf01f67a6d888e59645ca722955\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\4fd76cf01f67a6d888e59645ca722955\AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\4fd76cf01f67a6d888e59645ca722955\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\firebase-common-11.8.0.aar\4fd76cf01f67a6d888e59645ca722955\AndroidManifest.xml:9:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8f6344cb3fd0f8ff2dc689d199100a90\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8f6344cb3fd0f8ff2dc689d199100a90\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\8f6344cb3fd0f8ff2dc689d199100a90\AndroidManifest.xml:24:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:app-debug:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\app-debug.aar\d15bd6ba6f137274bfa5548976ed046d\AndroidManifest.xml:19:13-23:29
+meta-data#unityplayer.UnityActivity
+ADDED from [:app-debug:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\app-debug.aar\d15bd6ba6f137274bfa5548976ed046d\AndroidManifest.xml:25:13-27:40
+	android:value
+		ADDED from [:app-debug:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\app-debug.aar\d15bd6ba6f137274bfa5548976ed046d\AndroidManifest.xml:27:17-37
+	android:name
+		ADDED from [:app-debug:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\app-debug.aar\d15bd6ba6f137274bfa5548976ed046d\AndroidManifest.xml:26:17-57
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:12:22-73
+uses-permission#com.android.vending.BILLING
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:15:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:16:22-78
+activity#com.txwy.passport.model.MainActivity
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:22:9-35:20
+	android:theme
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:24:13-80
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:23:13-64
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cometid+data:scheme:@string/fb_login_protocol_scheme
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:25:13-34:29
+category#android.intent.category.DEFAULT
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:28:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:29:17-78
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:29:27-75
+data
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:31:17-33:73
+	android:host
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:32:21-43
+	android:scheme
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:33:21-70
+activity#com.txwy.passport.xdsdk.permission.PermissionsActivity
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:36:9-38:52
+	android:theme
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:37:13-82
+provider#android.support.v4.content.FileProvider
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:43:9-51:20
+	android:grantUriPermissions
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:47:13-47
+	android:authorities
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:45:13-71
+	android:exported
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:44:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:48:13-50:53
+	android:resource
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:50:17-50
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:49:17-67
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:53:9-55:55
+	android:value
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:55:13-52
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:54:13-58
+provider#com.facebook.FacebookContentProvider
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:57:9-60:39
+	android:authorities
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:59:13-66
+	android:exported
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:60:13-36
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:58:13-64
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:109:9-111:59
+	android:value
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:111:13-56
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:110:13-63
+receiver#com.appsflyer.SingleInstallBroadcastReceiver
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:126:9-132:20
+	android:exported
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:128:13-36
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:127:13-72
+service#com.txwy.passport.xdsdk.firebase.MyFirebaseMessagingService
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:134:9-138:19
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:134:18-92
+service#com.txwy.passport.xdsdk.firebase.MyFirebaseInstanceIDService
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:139:9-143:19
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:139:18-93
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:152:9-154:56
+	android:resource
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:154:13-53
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:153:13-83
+activity#com.txwy.passport.xdsdk.firebase.NotificationActivity
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:156:9-160:83
+	android:excludeFromRecents
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:158:13-46
+	android:theme
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:160:13-80
+	android:taskAffinity
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:159:13-36
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:157:13-81
+activity#com.txwy.passport.xdsdk.permission.PermissionsActivityLauncher
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:161:9-170:20
+	android:screenOrientation
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:163:13-49
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:162:13-90
+meta-data#permissionAct.turnTo.mainAct
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:167:13-169:72
+	android:value
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:169:17-69
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:168:17-60
+activity#com.twitter.sdk.android.tweetcomposer.ComposerActivity
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:175:9-178:71
+	android:windowSoftInputMode
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:178:13-68
+	android:exported
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:177:13-37
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:176:13-82
+service#com.twitter.sdk.android.tweetcomposer.TweetUploadService
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:180:9-183:40
+	android:enabled
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:182:13-35
+	android:exported
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:183:13-37
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:181:13-84
+meta-data#com.kakao.sdk.AppKey
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:185:9-187:53
+	android:value
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:187:13-50
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:186:13-48
+activity#com.kakao.auth.authorization.authcode.KakaoWebViewActivity
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:189:9-199:20
+	android:launchMode
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:192:13-43
+	android:windowSoftInputMode
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:193:13-55
+	android:configChanges
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:191:13-59
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:190:13-86
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:194:13-198:29
+activity#com.nhn.android.naverlogin.ui.OAuthLoginActivity
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:200:9-202:75
+	android:theme
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:202:13-72
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:201:13-76
+activity#com.nhn.android.naverlogin.ui.OAuthLoginInAppBrowserActivity
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:203:9-206:52
+	android:screenOrientation
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:206:13-49
+	android:label
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:205:13-44
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:204:13-88
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:214:13-221:29
+action#android.intent.action.VIEW
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:215:17-69
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:215:25-66
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:tw.txwy.and.wll
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:247:13-252:29
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:249:17-86
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:249:25-83
+category#tw.txwy.and.wll
+ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:251:17-60
+	android:name
+		ADDED from [:xdsdk-WLL_162014-release:] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\xdsdk-WLL_162014-release.aar\86a7a8c6b6dd682d87ce03a8abd53ae4\AndroidManifest.xml:251:27-57
+provider#com.facebook.marketing.internal.MarketingInitProvider
+ADDED from [com.facebook.android:facebook-marketing:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.38.1.aar\f9e97a796e4635e9c5ec22f740e6a609\AndroidManifest.xml:29:9-32:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-marketing:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.38.1.aar\f9e97a796e4635e9c5ec22f740e6a609\AndroidManifest.xml:31:13-73
+	android:exported
+		ADDED from [com.facebook.android:facebook-marketing:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.38.1.aar\f9e97a796e4635e9c5ec22f740e6a609\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-marketing:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.38.1.aar\f9e97a796e4635e9c5ec22f740e6a609\AndroidManifest.xml:30:13-81
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.38.1] C:\Users\zyq\.gradle\caches\transforms-1\files-1.1\facebook-core-4.38.1.aar\7aa2ab3e5349ab271bdcd8e60f7f8042\AndroidManifest.xml:48:25-92
