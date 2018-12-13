@@ -1,2 +1,0 @@
-configurations.maybeCreate("default")
-artifacts.add("default", file('xdsdk-WLL_162014-release.aar'))

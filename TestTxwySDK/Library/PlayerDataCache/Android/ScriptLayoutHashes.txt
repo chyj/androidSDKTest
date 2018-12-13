@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-E:/UnityProj/TestTxwySDK/TestTxwySDK.apk
+E:/github/android/androidSDKTest/apk3_gradle2.1.1.apk
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?

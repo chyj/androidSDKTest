@@ -2,6 +2,7 @@ package com.txwySDKTest;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.support.annotation.NonNull;
@@ -68,8 +69,8 @@ public class MainActivity extends UnityPlayerActivity {
                     return;
                 }
 //                SetPlayerInfo(passport);
-                ShowToast("Sign in successful");
-                UnityPlayer.UnitySendMessage(_objName, _signInCallback, "" + passport.uid);
+                ShowToast("Sign in successful  " +  passport.sid);
+                UnityPlayer.UnitySendMessage(_objName, _signInCallback, passport.sid);
                 // 帐号已成功登录通行证
                 // 将 passport.sid 传递给服务器，服务器通过通行证接口验证sid，以确保登录账号合法。
             }
@@ -135,4 +136,25 @@ public class MainActivity extends UnityPlayerActivity {
     }
 
     //充值
+
+
+    //Facebook 分享
+    public void ShowImgToFacebook(Bitmap _bitmap, final String _objName, final String _shareCallBack)
+    {
+        SDKTxwyPassport.feedWithImage(this, _bitmap, new SDKTxwyPassport.feedDelegete() {
+            @Override
+            public void txwyDidFeed(String error) {
+                if (error.equals("success"))
+                {
+                    //分享成功
+                    UnityPlayer.UnitySendMessage(_objName, _shareCallBack, "1");
+                }
+                else
+                {
+                    //分享失敗
+                    UnityPlayer.UnitySendMessage(_objName, _shareCallBack, "0");
+                }
+            }
+        });
+    }
 }

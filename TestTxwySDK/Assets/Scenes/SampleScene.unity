@@ -180,7 +180,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: show toast
+  m_Text: Signin
 --- !u!222 &127009726
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -383,7 +383,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 
 --- !u!222 &237765051
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -458,9 +458,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'show dialog
-
-'
+  m_Text: Init
 --- !u!222 &409689374
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -622,7 +620,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1370506465}
-        m_MethodName: Btn_Dialog
+        m_MethodName: InitSDK
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -795,7 +793,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1370506465}
-        m_MethodName: Btn_Vibrate
+        m_MethodName: SignOut
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1012,7 +1010,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1370506465}
-        m_MethodName: Btn_Toast
+        m_MethodName: Btn_Dialog
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
