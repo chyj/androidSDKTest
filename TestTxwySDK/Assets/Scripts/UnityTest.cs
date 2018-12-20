@@ -3,6 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+public class SDKTxwyPassportInfo 
+{
+    public int uid;                    //通行证ID，玩家唯一数字标识
+    public string uname;                 //用户名
+    public string sid;                  //通行证登录凭证
+    public bool isGuest;                //标识是否游客身份登录
+    public bool isBindPhoneNum;         //标识用户是否已经绑定手机
+}
+
 public class UnityTest : MonoBehaviour
 {
     public Text mText;
@@ -52,6 +61,39 @@ public class UnityTest : MonoBehaviour
  
     }
 
+    //获取用户信息
+    public SDKTxwyPassportInfo GetPassportInfo()
+    {
+        SDKTxwyPassportInfo info = new SDKTxwyPassportInfo();
+
+        AndroidJavaClass unityPlayer = new AndroidJavaClass ("com.unity3d.player.UnityPlayer");
+		AndroidJavaObject currentActivity = unityPlayer.GetStatic<AndroidJavaObject> ("currentActivity");
+        AndroidJavaObject passwordInfo = currentActivity.Call<AndroidJavaObject> ("GetPassportInfo");
+
+        setMsg("get info");
+        setMsg("get info 11 " + passwordInfo.Get<int>("uid"));
+        info.uid = passwordInfo.Get<int>("uid");
+        info.uname = passwordInfo.Get<string>("uname");
+        info.sid = passwordInfo.Get<string>("sid");
+        info.isGuest = passwordInfo.Get<bool>("isGuest");
+        info.isBindPhoneNum = passwordInfo.Get<bool>("isBindPhoneNum");
+
+        return info;
+    }
+
+    public void Btn_GetInfo()
+    {
+        SDKTxwyPassportInfo info = GetPassportInfo();
+        setMsg("sid : " + info.sid +"/n uname: "+ info.uname + "/n isGuest :" + info.isGuest + "/n isBind" + info.isBindPhoneNum);
+    }
+
+    public void GetInfo()
+    {
+        AndroidJavaClass jc = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+        AndroidJavaObject jo = jc.GetStatic<AndroidJavaObject>("currentActivity");
+        jo.Call("GetPassportInfo");
+    }
+
     public void InitSDK()
     {
         AndroidJavaClass jc = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
@@ -70,7 +112,7 @@ public class UnityTest : MonoBehaviour
     {
         AndroidJavaClass jc = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
         AndroidJavaObject jo = jc.GetStatic<AndroidJavaObject>("currentActivity");
-        jo.Call("SignIn", m_objName, "SignCallBackFunc");
+        jo.Call("SignIn", m_objName, "SignInSuccessBackFunc", "SignOutSccessCallBack");
         //AndroidJavaClass unityPlayer = new AndroidJavaClass ("com.unity3d.player.UnityPlayer");
         //AndroidJavaObject currentActivity = unityPlayer.GetStatic<AndroidJavaObject> ("currentActivity");
         //AndroidJavaClass androidCall = new AndroidJavaClass ("com.txwy.passport.sdk.SDKTxwyPassport");
@@ -78,18 +120,14 @@ public class UnityTest : MonoBehaviour
         //androidCall.CallStatic ("signIn" , currentActivity , signInDelegete);
     }
 
-    public void SignCallBackFunc(string msg)
+    public void SignInSuccessBackFunc(string msg)
+    { 
+        setMsg("SignIn " + msg);
+    }
+
+    public void SignOutSccessCallBack()
     {
-        if (msg == "0")
-        {
-            //登录失败
-            setMsg("SignIn faild");
-        }
-        else
-        {
-            //登录成功，msg = userID
-            setMsg("SignIn succsseful! id ：" + msg);
-        }
+        setMsg("Signout");
     }
 
     public void SignOut()
@@ -97,6 +135,15 @@ public class UnityTest : MonoBehaviour
         AndroidJavaClass jc = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
         AndroidJavaObject jo = jc.GetStatic<AndroidJavaObject>("currentActivity");
         jo.Call("SignOut");
+    }
+
+    public void OpenUserCenter()
+    {
+        SDKTxwyPassportInfo info = GetPassportInfo();
+        string _serverID = "998";
+        string _playerName = info.uname;
+        string _clientVision = "1.1.1";
+        UserCenter(_serverID, _playerName, _clientVision);
     }
     
     //用户中心

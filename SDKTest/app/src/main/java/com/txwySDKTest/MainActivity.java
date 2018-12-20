@@ -28,7 +28,6 @@ public class MainActivity extends UnityPlayerActivity {
         String language = "tw";
 
         SDKTxwyPassport.setAppInfo(this, appID, appKey, fuid, language);
-        ShowToast("init");
     }
 
     public void ShowToast(final String mStr2Show) {
@@ -44,11 +43,10 @@ public class MainActivity extends UnityPlayerActivity {
     //初始化SDK
     public void InitSDK(String _appID, String _appKey, String _fuid, String _language) {
         SDKTxwyPassport.setAppInfo(this, _appID, _appKey, _fuid, _language);
-        ShowToast("InitSDK");
     }
 
     //登录
-    public void SignIn(final String _objName, final String _signInCallback) {
+    public void SignIn(final String _objName, final String _signInSuccessCallback, final String _signOutSuccessCallBack) {
         ShowToast("Sign in");
         final Activity curActivity = this;
         SDKTxwyPassport.signIn(this, new SDKTxwyPassport.SignInDelegete() {
@@ -62,15 +60,16 @@ public class MainActivity extends UnityPlayerActivity {
                 // passport.isGuest = true 则为游客身份登录
                 // passport.isBindPhoneNum = true 则为用户已绑定手机
 
+
                 if (passport == null) {
                     // 帐号已登出
-                    UnityPlayer.UnitySendMessage(_objName, _signInCallback, "0");
-                    ShowToast("Sign in faild");
+                    UnityPlayer.UnitySendMessage(_objName, _signOutSuccessCallBack, "0");
+//                    ShowToast("Sign in faild");
                     return;
                 }
 //                SetPlayerInfo(passport);
-                ShowToast("Sign in successful  " +  passport.sid);
-                UnityPlayer.UnitySendMessage(_objName, _signInCallback, passport.sid);
+//                ShowToast("Sign in successful  " +  passport.sid);
+                UnityPlayer.UnitySendMessage(_objName, _signInSuccessCallback, passport.sid);
                 // 帐号已成功登录通行证
                 // 将 passport.sid 传递给服务器，服务器通过通行证接口验证sid，以确保登录账号合法。
             }
@@ -139,7 +138,7 @@ public class MainActivity extends UnityPlayerActivity {
 
 
     //Facebook 分享
-    public void ShowImgToFacebook(Bitmap _bitmap, final String _objName, final String _shareCallBack)
+    public void ShowImgToFacebook(Bitmap _bitmap, final String _objName, final String _shareSuccessCallBack, final String _shareFaildCallBack )
     {
         SDKTxwyPassport.feedWithImage(this, _bitmap, new SDKTxwyPassport.feedDelegete() {
             @Override
@@ -147,14 +146,19 @@ public class MainActivity extends UnityPlayerActivity {
                 if (error.equals("success"))
                 {
                     //分享成功
-                    UnityPlayer.UnitySendMessage(_objName, _shareCallBack, "1");
+                    UnityPlayer.UnitySendMessage(_objName, _shareSuccessCallBack, "1");
                 }
                 else
                 {
                     //分享失敗
-                    UnityPlayer.UnitySendMessage(_objName, _shareCallBack, "0");
+                    UnityPlayer.UnitySendMessage(_objName, _shareFaildCallBack, "0");
                 }
             }
         });
+    }
+
+    public SDKTxwyPassportInfo GetPassportInfo()
+    {
+        return SDKTxwyPassport.getPassportInfo(this);
     }
 }
