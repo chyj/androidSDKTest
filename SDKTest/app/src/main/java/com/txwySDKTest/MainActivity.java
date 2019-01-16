@@ -10,8 +10,20 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.txwy.passport.sdk.SDKTxwyPassportInfo;
+import com.txwy.passport.sdk.billing.SkuDetails;
 import com.unity3d.player.*;
 import com.txwy.passport.sdk.SDKTxwyPassport;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
 
 
 public class MainActivity extends UnityPlayerActivity {
@@ -47,7 +59,6 @@ public class MainActivity extends UnityPlayerActivity {
 
     //登录
     public void SignIn(final String _objName, final String _signInSuccessCallback, final String _signOutSuccessCallBack) {
-        ShowToast("Sign in");
         final Activity curActivity = this;
         SDKTxwyPassport.signIn(this, new SDKTxwyPassport.SignInDelegete() {
             @Override
@@ -134,7 +145,76 @@ public class MainActivity extends UnityPlayerActivity {
         SDKTxwyPassport.onRequestPermissionsResult(this , requestCode , permissions , grantResults);
     }
 
+    class ProductsPrice
+    {
+        String productID;
+        String price;
+    }
+
+    //查询
+    public void QueryWithProducts(String[] _products, final String _objName, final String _queryFuncStr)
+    {
+        List<String> list = Arrays.asList(_products);
+        SDKTxwyPassport.queryWithProducts(this, list, new SDKTxwyPassport.ProductQueringListener() {
+            @Override
+            public void onQuery(List<SkuDetails> skus) {
+                //查询失败
+                if (null == skus)
+                    return;
+                List<ProductsPrice> producesPrice = new ArrayList<ProductsPrice>();
+                for (int i = 1; i <= skus.toArray().length; i++){
+                    SkuDetails sku = (SkuDetails) skus.toArray()[i-1];
+                    if (sku!=null){
+                        //sku.getSku()		     	-- 产品ID
+                        //sku.getAmount()	     	-- 价格
+                        //sku.getCur()		     	-- 货币
+                        //sku.getDisplayPrice()		-- 显示价格
+                        ProductsPrice tmp = new ProductsPrice();
+                        tmp.productID = sku.getSku();
+                        tmp.price = sku.getDisplayPrice();
+                        producesPrice.add(tmp);
+                    }
+                }
+
+                JSONArray jsonArray = new JSONArray();
+                JSONObject tmpObj = null;
+                int count = producesPrice.size();
+                for(int i = 0; i < count; i++)
+                {
+                    tmpObj = new JSONObject();
+                    try {
+                        tmpObj.put("productID", producesPrice.get(i).productID);
+                        tmpObj.put("price", producesPrice.get(i).price);
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    jsonArray.put(tmpObj);
+                    tmpObj = null;
+
+                }
+                String json = jsonArray.toString(); // 将JSONArray转换得到String
+                UnityPlayer.UnitySendMessage(_objName, _queryFuncStr, json);
+            }
+        });
+    }
+
     //充值
+    public void payWithProductID(final String _produceID, final String _serverID, final String _mark, final String _objName, final String _paySuccessFunc, final String _payCancleFunc)
+    {
+        SDKTxwyPassport.payWithProductID(this, _produceID, _serverID, _mark, 0, new SDKTxwyPassport.PaymentListener() {
+            @Override
+            public void onPayment(SkuDetails skuDetail) {
+                // 平台充值成功，游戏服务器可能还没有收到平台的充值请求。
+                UnityPlayer.UnitySendMessage(_objName, _paySuccessFunc, "");
+            }
+
+            @Override
+            public void onCancel() {
+                //出错或用户取消
+                UnityPlayer.UnitySendMessage(_objName, _payCancleFunc, "");
+            }
+        });
+    }
 
 
     //Facebook 分享
@@ -161,4 +241,6 @@ public class MainActivity extends UnityPlayerActivity {
     {
         return SDKTxwyPassport.getPassportInfo(this);
     }
+
 }
+
